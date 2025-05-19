@@ -184,7 +184,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7bec95e0989380f0abbd7c2733ad338e, type: 2}
+  - {fileID: 2100000, guid: 4413a959cd30cd40e997b9f1771a01f9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -690,12 +690,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f547d5f82c3ef07a959a0fb32dee1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cameraPivot: {fileID: 306296407}
-  _sensitivity: {x: 100, y: 2.8}
-  _verticalClamp: {x: -90, y: 90}
-  _lockCursor: 1
-  _invertYAxis: 0
-  _smoothing: 10
+  cameraJoint: {fileID: 306296407}
+  invertCamera: 0
+  mouseSensitivity: 28
+  mouseMultiplier: 10
+  maxLookAngle: 90
 --- !u!114 &1147512492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,8 +707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99a5255b147f558c59a2354fb7dfb099, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controller: {fileID: 0}
-  _cameraTransform: {fileID: 0}
+  _controller: {fileID: 1147512493}
+  _cameraTransform: {fileID: 306296407}
   _moveSpeed: 5
   _acceleration: 10
   _airControlMultiplier: 0.5
@@ -824,7 +823,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  - {fileID: 2100000, guid: 7bec95e0989380f0abbd7c2733ad338e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
