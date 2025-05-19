@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 namespace Game.Core.Events {
-    public class MyEventArgs {
+    public static class MyEventArgs {
         public class PlayerEventArgs {
             public class PlayerSpawnedEventArgs : EventArgs {
                 public GameObject Player { get; }

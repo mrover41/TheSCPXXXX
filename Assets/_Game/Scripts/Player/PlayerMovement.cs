@@ -1,4 +1,5 @@
 using UnityEngine;
+using Game.Core.Events;
 
 namespace Game.Player
 {
@@ -30,6 +31,11 @@ namespace Game.Player
         {
             ValidateReferences();
             InitializeComponents();
+        }
+
+        private void Start()
+        {
+            EventBus.PlayerEvents.RaisePlayerSpawned(new MyEventArgs.PlayerEventArgs.PlayerSpawnedEventArgs(this.gameObject));   
         }
 
         private void Update()
