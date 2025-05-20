@@ -1,5 +1,4 @@
 using UnityEngine;
-using Game.Core.Events;
 
 namespace Game.Player
 {
@@ -35,7 +34,7 @@ namespace Game.Player
 
         private void Start()
         {
-            EventBus.PlayerEvents.RaisePlayerSpawned(new MyEventArgs.PlayerEventArgs.PlayerSpawnedEventArgs(this.gameObject));
+            Core.Events.Handlers.Player.OnSpawned(new(gameObject));
         }
 
         private void Update()
