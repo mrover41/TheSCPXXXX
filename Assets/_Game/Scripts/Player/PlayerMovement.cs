@@ -35,7 +35,7 @@ namespace Game.Player
 
         private void Start()
         {
-            EventBus.PlayerEvents.RaisePlayerSpawned(new MyEventArgs.PlayerEventArgs.PlayerSpawnedEventArgs(this.gameObject));   
+            EventBus.PlayerEvents.RaisePlayerSpawned(new MyEventArgs.PlayerEventArgs.PlayerSpawnedEventArgs(this.gameObject));
         }
 
         private void Update()
