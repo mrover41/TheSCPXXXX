@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!28 &-4267496315221007201
+--- !u!28 &-8594538663700381159
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Next Ups SDF
+  m_Name: Next Ups SDF 1
   m_EditorClassIdentifier: 
   m_Version: 1.1.0
   m_FaceInfo:
@@ -81,7 +81,7 @@ MonoBehaviour:
     m_StrikethroughOffset: 45.2
     m_StrikethroughThickness: 6.591797
     m_TabWidth: 36
-  m_Material: {fileID: 8223105388339125582}
+  m_Material: {fileID: 7399042060966285589}
   m_SourceFontFileGUID: aa26fb96daa1f1840994c2c93f099c52
   m_CreationSettings:
     sourceFontFileName: 
@@ -261,7 +261,7 @@ MonoBehaviour:
     m_GlyphIndex: 37
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: -4267496315221007201}
+  - {fileID: -8594538663700381159}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_GetFontFeatures: 1
@@ -2540,7 +2540,7 @@ MonoBehaviour:
     kerningPairs: []
   fallbackFontAssets: []
   atlas: {fileID: 0}
---- !u!21 &8223105388339125582
+--- !u!21 &7399042060966285589
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -2576,7 +2576,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: -4267496315221007201}
+        m_Texture: {fileID: -8594538663700381159}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
