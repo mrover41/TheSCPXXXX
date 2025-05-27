@@ -1,17 +1,16 @@
 using Game.Core.Interfaces;
-using Game.Core.Models;
 using UnityEngine;
 
 namespace Game.Core.Events.EventArgs.Player {
-    public class AddingItemEventArgs : IDeniableEvent {
-        public AddingItemEventArgs(GameObject player, Item item) {
+    public class HurtingPlayerEventArg : IDeniableEvent {
+        public HurtingPlayerEventArg(GameObject player, float amount) {
             Player = player;
-            Item = item;
+            HurtAmount = amount;
             IsAllowed = true;
         }
-        
+
         public GameObject Player { get; set; }
-        public Item Item { get; set; }
+        public float HurtAmount { get; set; }
         public bool IsAllowed { get; set; }
     }
 }
