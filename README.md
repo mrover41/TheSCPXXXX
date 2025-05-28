@@ -1,3 +1,9 @@
+# Project info
+
+[Discord](https://discord.gg/nh6BuCDxaa)
+**the SCP-XXXX priject**
+
+That's it, this is the end of the adequacy of this file.
 # Miku Hatsune song
 
 `(oo-ee-oo)
